@@ -1,0 +1,85 @@
+body
+{
+    background-color: #0e0e0e;
+}
+
+.center {
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dropshadow
+{
+    /*text-shadow: 5px 5px rgb(0, 0, 0);*/
+}
+
+.hover:hover
+{
+    color:white;
+    text-shadow: 5px 5px rgb(29, 29, 29);
+    cursor: pointer;
+}
+
+.button{
+    border: 0;
+    background: none;
+}
+
+.button_yt
+{
+    color:red;
+    text-shadow: 5px 5px rgb(34, 0, 0);
+}
+
+.button_twitch
+{
+    color:rgb(100, 65, 165);
+    text-shadow: 5px 5px rgb(20, 0, 34);
+}
+
+.button_twitter
+{
+    color:rgb(29, 161, 242);
+    text-shadow: 5px 5px rgb(2, 0, 51);
+}
+
+.button_discord
+{
+    color:rgb(89, 102, 243);
+    text-shadow: 5px 5px rgb(14, 16, 39);
+}
+
+.button_google
+{
+    color:rgb(242, 88, 88);
+    text-shadow: 5px 5px rgb(32, 12, 12);
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+
+                                    -webkit-user-drag: none;
+                                    -khtml-user-drag: none;
+                                    -moz-user-drag: none;
+                                    -o-user-drag: none;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
